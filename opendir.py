@@ -2,7 +2,7 @@ import os
 # only works in linux
 # user needs to be root for script to work (sudo -i) in the terminal
 # if the file opendir.txt already exists
-# remove it
+# removes it
 if os.path.exists('./opendir.txt'):
 	os.remove('./opendir.txt')
 	print "file removed"
