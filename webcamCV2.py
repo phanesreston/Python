@@ -1,3 +1,4 @@
+# works in linux
 import numpy as np
 # install python-opencv package 
 # sudo apt-get install python-opencv (linux)
@@ -11,6 +12,7 @@ out = cv2.VideoWriter('output.avi',fourcc, 20.0, (640,480))
 while(cap.isOpened()):
     ret, frame = cap.read()
     if ret==True:
+    	# writes frame
         out.write(frame)
         cv2.imshow('frame',frame)
 
