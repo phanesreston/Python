@@ -9,6 +9,7 @@ if os.path.exists('./opendir.txt'):
 
 # open all directories and subdirectories and print out the path for each file found
 # to only open dirs and files for current directory replace "/" with "."
+# e.g. for root, dirs, files in os.walk(".", topdown=False):
 for root, dirs, files in os.walk("/", topdown=False):
     for name in files:
 	filepath = (os.path.join(root, name))
