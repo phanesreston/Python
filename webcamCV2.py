@@ -1,4 +1,6 @@
+# http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_video_display/py_video_display.html
 # works in linux
+
 import numpy as np
 # install python-opencv package 
 # sudo apt-get install python-opencv (linux)
