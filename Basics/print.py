@@ -1,4 +1,4 @@
-# Standard Print Statement (
+# Standard Print Statement
 # (will not work in python 3 or greater)
 
 # Strings
