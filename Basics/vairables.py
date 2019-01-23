@@ -89,6 +89,6 @@ dict()	                        # converts value to a dictionary
 frozenset()                     # converts value to a frozen set
 chr()                           # converts value to a char
 unichr()                        # converts value to unicode char	
-ord()	                          # converts a single character value to its integer value.
+ord()                           # converts a single character value to its integer value.
 hex()                           # converts value to hexadecimal string
 oct()                           # converts value to octal string
